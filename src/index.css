@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.story-circle{
+    @apply
+    hover:cursor-pointer select-none rounded-full w-16 h-16 m-2 ring ring-pink-500 ring-offset-2
+}
+
+.hastag{
+
+    @apply
+    text-blue-600
+    hover:cursor-pointer
+
+}
